@@ -1,0 +1,86 @@
+/* Type your code here */
+.cri{
+	display: flex;
+	justify-content: flex-end;
+}
+.head{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin: 0;
+
+}
+#a{
+	font-size: 20px;
+	font: weight 600;;
+}
+
+body{
+	margin-left: 40px;
+}
+.batsman{
+	display:flex;
+	justify-content: space-between;
+	width: 80%;
+	padding: 10px;
+	border-style: 1px solid black;
+
+
+}
+#bats{
+	padding-right: 265px;
+}
+
+.innings{
+	display: flex;
+	justify-content:flex-start;
+	background-color:orangered;
+	padding: 10px;
+	width: 80%;
+	border-style: 1px solid black;
+}
+.shewag{
+	display: flex;
+	width: 80%;
+	justify-content: space-between;
+	border: 1px solid grey;
+	padding: 10px;
+}
+#score{
+	margin-left: auto;
+}
+.bg{
+	position: absolute;
+	z-index: -1;
+	top: 100px;
+	right:  150px;
+
+
+}
+body{
+	position: relative;
+	font-family: Nunito Arial, Helvetica, sans-serif
+	
+}
+/* change the font family and spacing as per your project font */
+.footer{
+    display:flex;
+    flex-direction: row;
+    align-content: flex-end;
+	position: absolute;
+	top: 560px;
+	margin-right: 120px;
+	font-size: 30px;
+	font-family: Nunito Sans;
+	font-style: normal;
+	width: 80%;
+	padding:70px;
+	padding-right: 200px;
+	border-right: 200px;
+	margin: 0;
+
+    
+}
+body a{
+	text-decoration: none;
+}
